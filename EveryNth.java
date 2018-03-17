@@ -7,12 +7,12 @@ public class EveryNth {
 
     }
 
-    static void eachNumber(String text, int peroid) {
+    static void eachNumber(String text, int everyNth) {
         System.out.println(text);
         char[] charArray = text.toCharArray();
        
         for (int i = 0; i < charArray.length; i++) {
-            if ((i + 1) % peroid == 0 || i == 0) {
+            if ((i + 1) % everyNth == 0 || i == 0) {
                 System.out.print(charArray[i]);
             } else {
             }
