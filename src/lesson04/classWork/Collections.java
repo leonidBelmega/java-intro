@@ -18,10 +18,5 @@ public class Collections {
         digits.add(15);
         digits.add(16);
         digits.remove(digits.get(0));
-
-
-
-
-
     }
 }

@@ -3,7 +3,7 @@ package lesson02;
 public class Fibonacci {
     public static void main(String[] args) {
 
-        printFibonacciNumbers(6);
+        printFibonacciNumbers(1);
 
     }
 
